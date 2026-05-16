@@ -38,11 +38,12 @@ Recall
 F1-score
 
 Model Performance Summary
-| Model               | Accuracy | Recall (Class 1)    | F1-score |
-| ------------------- | -------- | ------------------- | -------- |
-| Decision Tree       | —        | —                   | —        |
-| Logistic Regression | ⭐ Best   | **0.76**            | —        |
-| Random Forest       | ~0.79    | Lower than Logistic | —        |
+| Model                                 | Accuracy   | Recall (Class 1) | F1-score       |
+| ------------------------------------- | ---------- | ---------------- | -------------- |
+| Decision Tree                         | Baseline   | Low/Medium       | Low            |
+| Random Forest                         | ~0.79      | ~0.76            | Moderate       |
+| **Logistic Regression (Final Model)** | ✔ Balanced | **0.76 (Best)**  | Best trade-off |
+
 
 
 —
